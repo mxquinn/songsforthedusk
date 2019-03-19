@@ -1,0 +1,435 @@
+{
+	"crew": {
+},
+	"playbook": {
+		"aegis": {
+	"ability": ["interpolation_protocol", "hits_keep_coming", "charmfield", "field_medic", "flow_and_crash", "the_reverie_school", "spark_of_hope", "spirit_soldier", "titanomach", "experienced"],
+	"base": {
+		"friends_title": "playbook_aegis_friends_title",
+		"command": "1",
+		"gatherinfo1": "gatherinfo_whats_thier_intention",
+		"gatherinfo2": "gatherinfo_what_might_I_suspect",
+		"gatherinfo3": "gatherinfo_whats_the_danger_here",
+		"gatherinfo4": "gatherinfo_how_can_I_find",
+		"gatherinfo5": "gatherinfo_how_can_I_help_here",
+		"gatherinfo6": "gatherinfo_whats_going_on",
+		"gatherinfo7": "gatherinfo_detail_for_plan",
+		"playbook_description": "playbook_aegis_description",
+		"skirmish": "2",
+		"xp_condition": "playbook_aegis_xp_condition"
+	},
+	"playbookitem": [{
+		"bold": "1",
+		"name": "playbook_item_fine_hand_weapon",
+		"description": "playbook_item_fine_hand_weapon_description",
+		"numboxes": "1"
+	}, {
+		"name": "playbook_item_heavy_shield",
+		"description": "playbook_item_heavy_shield_description",
+		"numboxes": "2"
+	}, {
+		"bold": "1",
+		"name": "playbook_item_fine_sidearm",
+		"description": "playbook_item_fine_sidearm_description",
+		"numboxes": "1"
+	}, {
+		"bold": "1",
+		"name": "playbook_item_fine_spark_rifle",
+		"description": "playbook_item_fine_spark_rifle_description",
+		"numboxes": "1"
+	}, {
+		"name": "playbook_item_tactical_grenades",
+		"description": "playbook_item_tactical_grenades_description",
+		"numboxes": "1"
+	}, {
+		"name": "playbook_item_mark_of_training",
+		"description": "playbook_item_mark_of_training_description",
+		"numboxes": "0"
+	}]
+},
+	"kestrel": {
+	"ability": ["seventh_sense", "mother_duck", "charmlink", "natures_bounty", "nighthawk_tactics", "relentless", "red_eyes_shining", "storm_warning", "way_of_the_seeker", "experienced"],
+	"base": {
+	"friends_title": "playbook_kestrel_friends_title",
+	"hunt": "1",
+	"gatherinfo1": "gatherinfo_whats_thier_intention",
+	"gatherinfo2": "gatherinfo_what_might_I_suspect",
+	"gatherinfo3": "gatherinfo_whats_the_danger_here",
+	"gatherinfo4": "gatherinfo_how_can_I_find",
+	"gatherinfo5": "gatherinfo_how_can_I_help_here",
+	"gatherinfo6": "gatherinfo_whats_going_on",
+	"gatherinfo7": "gatherinfo_detail_for_plan",
+	"playbook_description": "playbook_kestrel_description",
+	"wayfare": "2",
+	"xp_condition": "playbook_kestrel_xp_condition"
+	},
+	"playbookitem": [{
+	"bold": "1",
+	"name": "playbook_item_fine_hunting_knives",
+	"description": "playbook_item_fine_hunting_knives_description",
+	"numboxes": "1"
+	}, {
+	"bold": "1",
+	"name": "playbook_item_fine_rifle_or_longbow",
+	"description": "playbook_item_fine_rifle_or_longbow_description",
+	"numboxes": "2"
+	}, {
+	"name": "playbook_item_a_tracking_pet",
+	"description": "playbook_item_a_tracking_pet_description",
+	"numboxes": "0"
+	}, {
+	"name": "playbook_item_optical_rig",
+	"description": "playbook_item_optical_rig_description",
+	"numboxes": "0"
+	}, {
+	"name": "playbook_item_tracking_beacons",
+	"description": "playbook_item_tracking_beacons_description",
+	"numboxes": "0"
+	}, {
+	"name": "playbook_item_memento_of_the_wilds",
+	"description": "playbook_item_memento_of_the_wilds_description",
+	"numboxes": "0"
+	}]
+},
+	"proxy": {
+"ability": ["de_escalation", "keen", "both_eyes_open", "carrot_strategem", "charmtongue", "face_full_of_sunshine", "finding_time", "specter", "threads_of_fate", "experienced"],
+"base": {
+	"friends_title": "playbook_proxy_friends_title",
+	"bluff": "1",
+	"gatherinfo1": "gatherinfo_whats_thier_intention",
+	"gatherinfo2": "gatherinfo_what_might_I_suspect",
+	"gatherinfo3": "gatherinfo_whats_the_danger_here",
+	"gatherinfo4": "gatherinfo_how_can_I_find",
+	"gatherinfo5": "gatherinfo_how_can_I_help_here",
+	"gatherinfo6": "gatherinfo_whats_going_on",
+	"gatherinfo7": "gatherinfo_detail_for_plan",
+	"playbook_description": "playbook_proxy_description",
+	"connect": "2",
+	"xp_condition": "playbook_proxy_xp_condition"
+},
+"playbookitem": [{
+	"bold": "1",
+	"name": "playbook_item_fine_gift",
+	"description": "playbook_item_fine_gift_description",
+	"numboxes": "2"
+}, {
+	"bold": "1",
+	"name": "playbook_item_fine_clothes",
+	"description": "playbook_item_fine_clothes_description",
+	"numboxes": "2"
+}, {
+	"name": "playbook_item_self_defense_weapon",
+	"description": "playbook_item_self_defense_weapon_description",
+	"numboxes": "1"
+}, {
+	"name": "playbook_item_legitimate_id",
+	"description": "playbook_item_legitimate_id_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_legitimate_id_wink",
+	"description": "playbook_item_legitimate_id_wink_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_token_of_your_past",
+	"description": "playbook_item_token_of_your_past_description",
+	"numboxes": "0"
+}]
+},
+	"Scholar": {
+"ability": ["curiosity_satisfaction", "charmsight", "charmtrick", "endless_road", "epiphany", "jstor_login", "researcher", "state_alchemists_dilemma", "studied_the_blade", "experienced"],
+"base": {
+	"friends_title": "playbook_scholar_friends_title",
+	"finesse": "1",
+	"gatherinfo1": "gatherinfo_whats_thier_intention",
+	"gatherinfo2": "gatherinfo_what_might_I_suspect",
+	"gatherinfo3": "gatherinfo_whats_the_danger_here",
+	"gatherinfo4": "gatherinfo_how_can_I_find",
+	"gatherinfo5": "gatherinfo_how_can_I_help_here",
+	"gatherinfo6": "gatherinfo_whats_going_on",
+	"gatherinfo7": "gatherinfo_detail_for_plan",
+	"playbook_description": "playbook_scholar_description",
+	"focus": "2",
+	"xp_condition": "playbook_scholar_xp_condition"
+},
+"playbookitem": [{
+	"bold": "1",
+	"name": "playbook_item_data_cloner",
+	"description": "playbook_item_data_cloner_description",
+	"numboxes": "1"
+}, {
+	"bold": "1",
+	"name": "playbook_item_fine_research_gear",
+	"description": "playbook_item_fine_research_gear_description",
+	"numboxes": "2"
+}, {
+	"name": "playbook_item_books_and_journals",
+	"description": "playbook_item_books_and_journals_description",
+	"numboxes": "3"
+}, {
+	"name": "playbook_item_notebooks",
+	"description": "playbook_item_notebooks_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_translation_codex",
+	"description": "playbook_item_translation_codex_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_worn_book",
+	"description": "playbook_item_worn_book_description",
+	"numboxes": "0"
+}]
+},
+	"scrapper": {
+"ability": ["hotfix", "paracause_protocol", "99_miles_per_hour", "a_horse_called_duck", "charlie_and_bee", "charmhack", "controlled_chaos", "neurocoupling", "tesseraction", "experienced"],
+"base": {
+	"friends_title": "playbook_scrapper_friends_title",
+	"focus": "1",
+	"gatherinfo1": "gatherinfo_whats_thier_intention",
+	"gatherinfo2": "gatherinfo_what_might_I_suspect",
+	"gatherinfo3": "gatherinfo_whats_the_danger_here",
+	"gatherinfo4": "gatherinfo_how_can_I_find",
+	"gatherinfo5": "gatherinfo_how_can_I_help_here",
+	"gatherinfo6": "gatherinfo_whats_going_on",
+	"gatherinfo7": "gatherinfo_detail_for_plan",
+	"playbook_description": "playbook_scrapper_description",
+	"shape": "2",
+	"xp_condition": "playbook_scrapper_xp_condition"
+},
+"playbookitem": [{
+	"bold": "1",
+	"name": "playbook_item_fine_repair_tools",
+	"description": "playbook_item_fine_repair_tools_description",
+	"numboxes": "1"
+}, {
+	"bold": "1",
+	"name": "playbook_item_fine_splicekit",
+	"description": "playbook_item_fine_splicekit_description",
+	"numboxes": "2"
+}, {
+	"bold": "1",
+	"name": "playbook_item_spare_parts",
+	"description": "playbook_item_spare_parts_description",
+	"numboxes": "1"
+}, {
+	"name": "playbook_item_magnifying_lenses",
+	"description": "playbook_item_magnifying_lenses_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_stasis_pack",
+	"description": "playbook_item_stasis_pack_description",
+	"numboxes": "2"
+}, {
+	"name": "playbook_item_relic_fragment",
+	"description": "playbook_item_relic_fragment_description",
+	"numboxes": "0"
+}]
+},
+	"witch": {
+"ability": ["charmwork", "carolines_heart", "charmbreak", "cultivate_saplings", "kythe", "the_moon_upright", "plainsplit", "ravens_at_dusk", "skyfall_safeguard", "experienced"],
+"base": {
+	"friends_title": "playbook_witch_friends_title",
+	"finesse": "1",
+	"gatherinfo1": "gatherinfo_whats_thier_intention",
+	"gatherinfo2": "gatherinfo_what_might_I_suspect",
+	"gatherinfo3": "gatherinfo_whats_the_danger_here",
+	"gatherinfo4": "gatherinfo_how_can_I_find",
+	"gatherinfo5": "gatherinfo_how_can_I_help_here",
+	"gatherinfo6": "gatherinfo_whats_going_on",
+	"gatherinfo7": "gatherinfo_detail_for_plan",
+	"playbook_description": "playbook_witch_description",
+	"tune": "2",
+	"xp_condition": "playbook_witch_xp_condition"
+},
+"playbookitem": [{
+	"bold": "1",
+	"name": "playbook_item_fine_charmwork_tools",
+	"description": "playbook_item_fine_charmwork_tools_description",
+	"numboxes": "1"
+}, {
+	"bold": "1",
+	"name": "playbook_item_fine_healing_supplies",
+	"description": "playbook_item_fine_healing_supplies_description",
+	"numboxes": "1"
+}, {
+	"name": "playbook_item_familiar",
+	"description": "playbook_item_familiar_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_arcana_zero",
+	"description": "playbook_item_arcana_zero_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_small_totems",
+	"description": "playbook_item_small_totems_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_book_of_legends",
+	"description": "playbook_item_book_of_legends_description",
+	"numboxes": "0"
+}]
+},
+	"charter": {
+	"ability": ["long_thought", "coordinated", "charmsync", "fight_a_few_fears", "meticulous", "polymath", "planned_for_everything", "self_care", "up_late", "experienced"],
+	"base": {
+		"friends_title": "playbook_charter_friends_title",
+		"connect": "1",
+		"gatherinfo1": "gatherinfo_whats_thier_intention",
+		"gatherinfo2": "gatherinfo_what_might_I_suspect",
+		"gatherinfo3": "gatherinfo_whats_the_danger_here",
+		"gatherinfo4": "gatherinfo_how_can_I_find",
+		"gatherinfo5": "gatherinfo_how_can_I_help_here",
+		"gatherinfo6": "gatherinfo_whats_going_on",
+		"gatherinfo7": "gatherinfo_detail_for_plan",
+		"playbook_description": "playbook_charter_description",
+		"focus": "2",
+		"xp_condition": "playbook_charter_xp_condition"
+	},
+	"playbookitem": [{
+		"name": "playbook_item_signal_flares",
+		"description": "playbook_item_signal_flares_description",
+		"numboxes": "1"
+	}, {
+		"name": "playbook_item_forged_documents",
+		"description": "playbook_item_forged_documents_description",
+		"numboxes": "0"
+	}, {
+		"name": "playbook_item_dossiers",
+		"description": "playbook_item_dossiers_description",
+		"numboxes": "0"
+	}, {
+		"name": "playbook_item_stun_charge",
+		"description": "playbook_item_stun_charge_description",
+		"numboxes": "1"
+	}, {
+		"name": "playbook_item_recon_beetle",
+		"description": "playbook_item_recon_beetle_description",
+		"numboxes": "0"
+	}, {
+		"name": "playbook_item_log_book",
+		"description": "playbook_item_log_book_description",
+		"numboxes": "1"
+	}]
+	}
+},
+	"factions": {
+	},
+	"actions": {
+		"analysis": ["focus", "hunt", "shape", "sunder"],
+		"kinesis": ["finesse", "shadow", "skirmish", "wayfare"],
+		"semiosis": ["tune", "bluff", "command", "connect"]
+	},
+	"traumas": ["anxious", "cynical", "detatched", "haunted", "obsessed", "reckless", "shaky", "vindictive"],
+	"items": [{
+		"name": "simple_comms",
+		"description": "simple_comms_description",
+		"numboxes": "0"
+	}, {
+		"name": "lumeslate",
+		"description": "lumeslate_description",
+		"numboxes": "0"
+	}, {
+		"name": "analysis_pack",
+		"description": "analysis_pack_description",
+		"numboxes": "2"
+	}, {
+		"name": "comms_pack",
+		"description": "comms_pack_description",
+		"numboxes": "1"
+	}, {
+		"name": "survival_pack",
+		"description": "survival_pack_description",
+		"numboxes": "2"
+	}, {
+		"name": "medkit",
+		"medkit_description": "basic_comms_description",
+		"numboxes": "1"
+	}, {
+		"name": "blade_or_hammer",
+		"description": "blade_or_hammer_description",
+		"numboxes": "1"
+	}, {
+		"name": "sparkshot",
+		"description": "sparkshot_description",
+		"numboxes": "1"
+	}, {
+		"name": "strange_weapon",
+		"description": "strange_weapon_description",
+		"numboxes": "1"
+	}, {
+		"name": "assault_ordnance",
+		"description": "assault_ordnance_description",
+		"numboxes": "2"
+	}, {
+		"name": "armor",
+		"description": "armor_description",
+		"numboxes": "1",
+		"short": "1"
+	}, {
+		"name": "+heavy",
+		"description": "+heavy_description",
+		"numboxes": "2",
+		"short": "1"
+	}, {
+		"name": "charmwork_tools",
+		"description": "charmwork_tools_description",
+		"numboxes": "1"
+	}, {
+		"name": "repair_tools",
+		"description": "repair_tools_description",
+		"numboxes": "1"
+	}, {
+		"name": "demolition_tools",
+		"description": "demolition_tools_description",
+		"numboxes": "2"
+	}, {
+		"name": "infiltration_kit",
+		"description": "infiltration_kit_description",
+		"numboxes": "1"
+	}, {
+		"name": "jumpkit",
+		"description": "jumpkit_description",
+		"numboxes": "2"
+	}],
+	"translatedDefaults": {
+		"cohort1_name": "expert",
+		"contacts_title": "contacts",
+		"factions_title": "factions_title",
+		"factions1_header": "factions1",
+		"factions2_header": "factions2",
+		"factions3_header": "factions3",
+		"factions4_header": "factions4",
+		"factions5_header": "factions5",
+		"friends_title": "friends",
+		"upgrade_20_name": "analysis",
+		"upgrade_20_description": "upgrade_analysis_description",
+		"upgrade_21_name": "kinesis",
+		"upgrade_21_description": "upgrade_kinesis_description",
+		"upgrade_22_name": "semiosis",
+		"upgrade_22_description": "upgrade_semiosis_description",
+		"upgrade_23_name": "personal",
+		"upgrade_23_description": "upgrade_personal_description",
+		"upgrade_24_name": "mastery",
+		"upgrade_24_description": "upgrade_mastery_description",
+		"xp_condition2": "xp_beliefs",
+		"xp_condition3": "xp_relief"
+	},
+	"defaultValues": {
+		"tune": "0",
+		"command": "0",
+		"connect": "0",
+		"finesse": "0",
+		"hunt": "0",
+		"shadow": "0",
+		"skirmish": "0",
+		"shape": "0",
+		"focus": "0",
+		"bluff": "0",
+		"sunder": "0",
+		"wayfare": "0"
+	},
+	"maxFriendsPerPlaybook": 5,
+	"maxContactsPerCrew": 5,
+	"friendlessPlaybooks": [],
+	"translatedCrewAttributes": ["crew_description", "crew_xp_condition"],
+	"translatedPlaybookAttributes": ["friends_title", "gatherinfo1", "gatherinfo2", "gatherinfo3", "gatherinfo4", "gatherinfo5", "gatherinfo6", "playbook_description","xp_condition"]
+}
