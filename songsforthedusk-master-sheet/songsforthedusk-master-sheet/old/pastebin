@@ -1,0 +1,165 @@
+		.col100.sheet-coin-and-stash
+			.col100.coinrow2.flex
+				.col100.investment
+					+radio('investment')(value='0', checked).zero
+					//- 40 stash boxes, in rows of 10.
+					each num in range(1,40)
+						+radio('investment')(value=num).radiobox
+						if (num % 10 === 0)
+
+            .col100
+              .item
+                each num in range(1,2)
+                  +checkbox(`upgrade_24_check_${num}`).checkbox.squarebox
+                  if (num < 2)
+                    span.floatingbar
+                +text-input('upgrade_24_name', 'mastery').itemname
+              .item-description
+                +checkbox('upgrade_24_expand').expand
+                +textarea('upgrade_24_description', 'upgrade_mastery_description')(data-i18n-placeholder='description')
+
+// Stash
+.col100.stash
+  +radio('stash')(value='0', checked).zero
+  //- 40 stash boxes, in rows of 10.
+  each num in range(1,40)
+    +radio('stash')(value=num).radiobox
+    if (num % 10 === 0)
+
+.crewcoin.col52b
+				.col100.flex
+					.blackheader.crewcoin1
+						.label(data-i18n='supply')
+					.greyheader.crewcoin2
+						.label(data-i18n='prosperity')
+				.col100.flex.crewcoin-coins
+					+radio('crewcoin')(value='0', checked).zero
+					each num in range(1,10)
+						+radio('crewcoin')(value=num).radiobox
+					.crewcoinbar
+					each num in range(11)
+						+radio('crewcoin')(value=num).radiobox.vaultcoin
+			.crewcoin.col52b
+				.col100.flex
+					.blackheader.crewcoin1
+						.label(data-i18n='supply')
+					.greyheader.crewcoin2
+						.label(data-i18n='prosperity')
+				.col100.flex.crewcoin-coins
+					+radio('crewcoin')(value='0', checked).zero
+					each num in range(1,10)
+						+radio('crewcoin')(value=num).radiobox
+					.crewcoinbar
+					each num in range(11)
+						+radio('crewcoin')(value=num).radiobox.vaultcoin
+									.crewcoin.col52b
+				.col100.flex
+					.blackheader.crewcoin1
+						.label(data-i18n='supply')
+					.greyheader.crewcoin2
+						.label(data-i18n='prosperity')
+				.col100.flex.crewcoin-coins
+					+radio('crewcoin')(value='0', checked).zero
+					each num in range(1,10)
+						+radio('crewcoin')(value=num).radiobox
+					.crewcoinbar
+					each num in range(11)
+						+radio('crewcoin')(value=num).radiobox.vaultcoin
+									.crewcoin.col52b
+				.col100.flex
+					.blackheader.crewcoin1
+						.label(data-i18n='supply')
+					.greyheader.crewcoin2
+						.label(data-i18n='prosperity')
+				.col100.flex.crewcoin-coins
+					+radio('crewcoin')(value='0', checked).zero
+					each num in range(1,10)
+						+radio('crewcoin')(value=num).radiobox
+					.crewcoinbar
+					each num in range(11)
+						+radio('crewcoin')(value=num).radiobox.vaultcoin
+
+    // Healing
+    .col45.healing
+      .blackheader.col100
+        +fortuneroll('Recovery', '{{resist=1}} {{short=1}} {{title=^{recovery}}} {{subtitle=^{rolls_for}}}')(data-i18n='healing').label.rollbutton.inherit
+      .col100.healing-progress(data-i18n='progress_clock', data-i18n-title='recoveryblurb')
+      // Healing clock
+      +hidden-input('recovery_max')(value='4').size
+      .clock-container
+        .spoke-0.all
+        .spoke-90.all
+        +radio('recovery')(value='0', checked).zero.input-progress
+        each num in range(1,4)
+          input.input-progress.all(type='radio', name='attr_recovery', value=num, data-i18n-title='recoveryblurb')
+        .clock
+
+        label.col45.header
+          +text-input('crew')
+          .label.text.title(data-i18n='crew')
+
+          .stashbutton-holder
+            +hidden-input('stash_formula')(value=zerodiceFormula)
+            +roll('Stash', '{{resist=1}} {{short=1}} {{title=^{stash}}} {{subtitle=^{rolls}}} @{stash_formula}')(data-i18n='stash').rollbutton.label
+
+
+            +makeupgrade(5, 1, 'rover', 'upgrade_rover_description')
+  					+makeupgrade(6, 1, 'dropjet', 'upgrade_dropjet_description')
+  					+makeupgrade(7, 1, 'quarters', 'upgrade_quarters_description')
+  					+makeupgrade(8, 1, 'warehouses', 'upgrade_warehouses_description')
+  					+makeupgrade(9, 2, 'security', 'upgrade_security_description')
+  					+makeupgrade(10, 1, 'workshop', 'upgrade_workshop_description')
+  					+makeupgrade(11, 1, 'packs', 'upgrade_packs_description')
+  					+makeupgrade(12, 1, 'weapons', 'upgrade_weapons_description')
+  					+makeupgrade(13, 1, 'tools', 'upgrade_tools_description')
+  					+makeupgrade(14, 1, 'kits', 'upgrade_kits_description')
+  					.item.col50
+
+
+
+            .col100.flex
+              .blackheader.crewcoin1
+                .label(data-i18n='supply')
+              .greyheader.crewcoin2
+                .label(data-i18n='vaults')
+            .col100.flex.crewcoin-coins
+              +radio('crewcoin')(value='0', checked).zero
+              each num in range(1,4)
+                +radio('crewcoin')(value=num).radiobox
+              .crewcoinbar
+              each num in range(5,8)
+                +radio('crewcoin')(value=num).radiobox.vaultcoin
+              .crewcoinbar
+              each num in range(9,16)
+                +radio('crewcoin')(value=num).radiobox.vaultcoin
+            .col100.crewcoin-desc(data-i18n='upon_crew_advance')
+
+            // Heat
+            .col45.flex.heat
+              // Heat markers
+              .heat1.blackheader
+                .label(data-i18n='heat')
+              .heat2.blackborder.flex
+                +radio('heat')(value='0', checked).tooth.zero
+                //- generates 9 heat boxes
+                each num in range(1,9)
+                  +radio('heat')(value=num).tooth.stresstooth
+              // Wanted Level
+              .heat3
+                .blackheader
+                  +roll('Wanted', '{{vice=1}} {{short=1}} {{title=^{entanglement}}} {{subtitle=^{wantedroll1}@{heat}&nbsp;^{heat}^{wantedroll2}}} @{wanted_formula}')(data-i18n='wanted').label.inherit.rollbutton
+                  +hidden-input('wanted_formula')(value=zerodiceFormula)
+                .wantedholder.flex
+                  +radio('wanted')(value='0', checked).tooth.zero
+                  //- generates 4 wanted boxes
+                  each num in range(1,4)
+                    +radio('wanted')(value=num).tooth.regulartooth
+
+            .warblurb.def-margin
+              .label(data-i18n='war')
+                ul
+                  li.nondot(data-i18n='warblurb1')
+                  li(data-i18n='warblurb2')
+                  li(data-i18n='warblurb3')
+                  li(data-i18n='warblurb4')
+                  li(data-i18n='warblurb5')

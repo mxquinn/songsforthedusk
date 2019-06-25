@@ -1,0 +1,915 @@
+{
+	"crew": {
+		"augurs": {
+			"base": {
+				"claim_1_name": "claim_custom_workspaces",
+				"claim_1_desc": "claim_custom_workspaces_description",
+				"claim_2_desc": "claim_artisan_crafters_description",
+				"claim_2_name": "claim_artisan_crafters",
+				"claim_3_desc": "claim_radiant_archive_description",
+				"claim_3_name": "claim_radiant_archive",
+				"claim_4_desc": "claim_exotic_weave_description",
+				"claim_4_name": "claim_exotic_weave",
+				"claim_5_desc": "claim_quintessic_loom_description",
+				"claim_5_name": "claim_quintessic_loom",
+				"claim_6_name": "claim_production",
+				"claim_7_name": "claim_production",
+				"claim_9_name": "claim_production",
+				"claim_10_name": "claim_production",
+				"claim_11_desc": "claim_laboratory_description",
+				"claim_11_name": "claim_laboratory",
+				"claim_12_desc": "claim_charmflair_description",
+				"claim_12_name": "claim_charmflair",
+				"claim_13_desc": "claim_popular_science_description",
+				"claim_13_name": "claim_popular_science",
+				"claim_14_desc": "claim_wormhole_gate_description",
+				"claim_14_name": "claim_wormhole_gate",
+				"claim_15_desc": "claim_medical_bay_description",
+				"claim_15_name": "claim_medical_bay",
+				"claim_bridge_2_3": "0",
+				"claim_bridge_3_4": "0",
+				"claim_bridge_6_7": "0",
+				"claim_bridge_10_15": "0",
+				"claim_bridge_12_13": "0",
+				"claim_bridge_13_14": "0",
+				"crew_description": "crew_augurs_description",
+				"crew_xp_condition": "crew_augurs_xp_condition",
+				"hunting_grounds_type": "crew_augurs_hunting_grounds_type",
+				"hunting_grounds_description": "crew_augurs_hunting_grounds_description",
+				"upgrade_14_check_1": "1",
+				"upgrade_22_check_1": "1"
+			},
+			"crewability": ["elementary", "case_file_drive", "cut_loose", "drift_compatible", "rescue_warp", "spirits_perch", "uxies_promise", "experienced"],
+			"upgrade": [{
+				"name": "crew_upgrade_exoadaptive_tech",
+				"description": "crew_upgrade_exoadaptive_tech_description",
+				"numboxes": "1"
+			}, {
+				"name": "crew_upgrade_neural_overlay",
+				"description": "crew_upgrade_neural_overlay_description",
+				"numboxes": "1"
+			}, {
+				"name": "crew_upgrade_lake_in_the_sky",
+				"description": "crew_upgrade_lake_in_the_sky_description",
+				"numboxes": "2"
+			}, {
+				"name": "crew_upgrade_flexible",
+				"description": "crew_upgrade_flexible_description",
+				"numboxes": "3"
+			}]
+		},
+		"couriers": {
+			"base": {
+				"claim_1_name": "claim_artisan_crafters",
+				"claim_1_desc": "claim_artisan_crafters_description",
+				"claim_2_name": "claim_production",
+				"claim_3_desc": "claim_side_shipments_description",
+				"claim_3_name": "claim_side_shipments",
+				"claim_4_desc": "claim_terrain_maps_description",
+				"claim_4_name": "claim_terrain_maps",
+				"claim_5_desc": "claim_medical_bay_description",
+				"claim_5_name": "claim_medical_bay",
+				"claim_6_name": "claim_production",
+				"claim_7_name": "claim_production",
+				"claim_9_name": "claim_production",
+				"claim_10_name": "claim_production",
+				"claim_11_desc": "claim_low_emissions_energy_description",
+				"claim_11_name": "claim_low_emissions_energy",
+				"claim_12_desc": "claim_wormhole_gate_description",
+				"claim_12_name": "claim_wormhole_gate",
+				"claim_13_desc": "claim_fleet_description",
+				"claim_13_name": "claim_fleet",
+				"claim_14_desc": "claim_mobile_city_description",
+				"claim_14_name": "claim_mobile_city",
+				"claim_15_desc": "claim_warehouses_description",
+				"claim_15_name": "claim_warehouses",
+				"claim_bridge_2_3": "0",
+				"claim_bridge_3_4": "0",
+				"claim_bridge_6_7": "0",
+				"claim_bridge_10_15": "0",
+				"claim_bridge_12_13": "0",
+				"claim_bridge_13_14": "0",
+				"cohort1_description": "vehicle_edges_flaws",
+				"cohort1_name": "vehicle",
+				"cohort1_subtype": "rover_dropjet_other",
+				"cohort1_type": "expert",
+				"crew_description": "crew_couriers_description",
+				"crew_xp_condition": "crew_couriers_description_xp_condition",
+				"hunting_grounds_type": "crew_couriers_hunting_grounds_type",
+				"hunting_grounds_description": "crew_couriers_hunting_grounds_description",
+				"upgrade_6_check_1": "1",
+				"upgrade_20_check_1": "1"
+			},
+			"crewability": ["go_for_miles", "all_hands", "distributed_weight", "experts_talk_logistics", "friendly", "one_of_us", "punch_it", "experienced"],
+			"upgrade": [{
+				"name": "crew_upgrade_internal_compasses",
+				"description": "crew_upgrade_internal_compasses_description",
+				"numboxes": "1"
+			}, {
+				"name": "crew_upgrade_hoverbikes",
+				"description": "crew_upgrade_hoverbikes_description",
+				"numboxes": "1"
+			}, {
+				"name": "crew_upgrade_dont_shirk_work",
+				"description": "crew_upgrade_dont_shirk_work_ddescription",
+				"numboxes": "2"
+			}, {
+				"name": "crew_upgrade_flexible",
+				"description": "crew_upgrade_flexible_description",
+				"numboxes": "3"
+			}]
+		},
+		"magpies": {
+			"base": {
+				"claim_1_name": "claim_assembly_arms",
+				"claim_1_desc": "claim_assembly_arms_description",
+				"claim_2_desc": "claim_artisan_crafters_description",
+				"claim_2_name": "claim_artisan_crafters",
+				"claim_3_desc": "claim_minifacturing_description",
+				"claim_3_name": "claim_minifacturing",
+				"claim_4_desc": "claim_radiant_archive_description",
+				"claim_4_name": "claim_radiant_archive",
+				"claim_5_desc": "claim_laboratory_description",
+				"claim_5_name": "claim_laboratory",
+				"claim_6_name": "claim_production",
+				"claim_7_name": "claim_production",
+				"claim_9_name": "claim_production",
+				"claim_10_name": "claim_production",
+				"claim_11_desc": "claim_custom_workspaces_description",
+				"claim_11_name": "claim_custom_workspaces",
+				"claim_12_desc": "claim_low_emissions_energy_description",
+				"claim_12_name": "claim_low_emissions_energy",
+				"claim_13_desc": "claim_open_license_specs_description",
+				"claim_13_name": "claim_open_license_specs",
+				"claim_14_desc": "claim_repair_shop_description",
+				"claim_14_name": "claim_repair_shop",
+				"claim_15_desc": "claim_adaptive_hardware_description",
+				"claim_15_name": "claim_adaptive_hardware",
+				"claim_bridge_2_3": "0",
+				"claim_bridge_3_4": "0",
+				"claim_bridge_6_7": "0",
+				"claim_bridge_10_15": "0",
+				"claim_bridge_12_13": "0",
+				"claim_bridge_13_14": "0",
+				"crew_description": "crew_magpies_description",
+				"crew_xp_condition": "crew_magpies_xp_condition",
+				"hunting_grounds_type": "crew_magpies_hunting_grounds_type",
+				"hunting_grounds_description": "crew_magpies_hunting_grounds_description",
+				"upgrade_11_check_1": "1",
+				"upgrade_20_check_1": "1"
+			},
+			"crewability": ["feather_transform", "custom_os", "engineers", "foundation_frames", "resilience", "scrapyards", "sum_of_its_parts", "experienced"],
+			"upgrade": [{
+				"name": "crew_upgrade_magic_circle",
+				"description": "crew_upgrade_magic_circle_description",
+				"numboxes": "1"
+			}, {
+				"name": "crew_upgrade_autofac_systems",
+				"description": "crew_upgrade_autofac_systems_description",
+				"numboxes": "1"
+			}, {
+				"name": "crew_upgrade_ten_into_eleven",
+				"description": "crew_upgrade_ten_into_eleven_description",
+				"numboxes": "2"
+			}, {
+				"name": "crew_upgrade_flexible",
+				"description": "crew_upgrade_flexible_description",
+				"numboxes": "3"
+			}]
+		},
+		"rangers": {
+			"base": {
+				"claim_1_desc": "claim_civilian_testimonies_description",
+				"claim_1_name": "claim_civilian_testimonies",
+				"claim_2_desc": "claim_artisan_crafters_description",
+				"claim_2_name": "claim_artisan_crafters",
+				"claim_3_desc": "claim_salvage_side_ops_description",
+				"claim_3_name": "claim_salvage_side_ops",
+				"claim_4_desc": "claim_field_medicine_description",
+				"claim_4_name": "claim_field_medicine",
+				"claim_5_desc": "claim_medical_bay_description",
+				"claim_5_name": "claim_medical_bay",
+				"claim_6_desc": "claim_combat_sims_description",
+				"claim_6_name": "claim_combat_sims",
+				"claim_7_name": "claim_production",
+				"claim_9_name": "claim_production",
+				"claim_10_name": "claim_production",
+				"claim_11_desc": "claim_training_facilities_description",
+				"claim_11_name": "claim_training_facilities",
+				"claim_12_name": "claim_production",
+				"claim_13_desc": "claim_warehouses_description",
+				"claim_13_name": "claim_warehouses",
+				"claim_14_desc": "claim_wormhole_gate_description",
+				"claim_14_name": "claim_wormhole_gate",
+				"claim_15_desc": "claim_passive_camo_description",
+				"claim_15_name": "claim_passive_camo",
+				"claim_bridge_2_3": "0",
+				"claim_bridge_3_4": "0",
+				"claim_bridge_6_7": "0",
+				"claim_bridge_10_15": "0",
+				"claim_bridge_12_13": "0",
+				"claim_bridge_13_14": "0",
+				"crew_description": "crew_rangers_description",
+				"crew_xp_condition": "crew_rangers_xp_condition",
+				"hunting_grounds_type": "crew_rangers_hunting_grounds_type",
+				"hunting_grounds_description": "crew_rangers_hunting_grounds_description",
+				"upgrade_7_check_1": "1",
+				"upgrade_21_check_1": "1"
+			},
+			"crewability": ["six_coyotes", "disaster_relief", "the_easy_way", "forged_in_fire", "reassuring", "synchronized", "war_dogs", "experienced"],
+			"upgrade": [{
+				"name": "crew_upgrade_quantum_encryption",
+				"description" : "crew_upgrade_quantum_encryption_description",
+				"numboxes": "1"
+			}, {
+				"name": "crew_upgrade_condor_satellite",
+				"description": "crew_upgrade_condor_satellite_description",
+				"numboxes": "1"
+			}, {
+				"name": "crew_upgrade_chorus_line_hypothesis",
+				"description": "crew_upgrade_chorus_line_hypothesis_description",
+				"numboxes": "2"
+			}, {
+				"name": "crew_upgrade_tempered",
+				"description": "crew_upgrade_tempered_description",
+				"numboxes": "3"
+			}]
+		},
+		"silvers": {
+			"base": {
+				"claim_1_desc": "claim_intercontinental_aid_description",
+				"claim_1_name": "claim_intercontinental_aid",
+				"claim_2_desc": "claim_artisan_crafters_description",
+				"claim_2_name": "claim_artisan_crafters",
+				"claim_3_desc": "claim_positive_spin_description",
+				"claim_3_name": "claim_positive_spin",
+				"claim_4_desc": "claim_cover_operation_description",
+				"claim_4_name": "claim_cover_operation",
+				"claim_5_desc": "claim_cover_identities_description",
+				"claim_5_name": "claim_cover_identities",
+				"claim_6_name": "claim_production",
+				"claim_7_name": "claim_production",
+				"claim_9_name": "claim_production",
+				"claim_10_desc": "claim_luxury_venue_description",
+				"claim_10_name": "claim_luxury_venue",
+				"claim_11_name": "claim_production",
+				"claim_12_desc": "claim_fashion_experts_description",
+				"claim_12_name": "claim_fashion_experts",
+				"claim_13_desc": "claim_black_market_contacts_description",
+				"claim_13_name": "claim_black_market_contacts",
+				"claim_14_desc": "claim_friends_in_low_places_description",
+				"claim_14_name": "claim_friends_in_low_places",
+				"claim_15_desc": "claim_expose_description",
+				"claim_15_name": "claim_expose",
+				"claim_bridge_2_3": "0",
+				"claim_bridge_3_4": "0",
+				"claim_bridge_6_7": "0",
+				"claim_bridge_10_15": "0",
+				"claim_bridge_12_13": "0",
+				"claim_bridge_13_14": "0",
+				"crew_description": "crew_silvers_description",
+				"crew_xp_condition": "crew_silvers_xp_condition",
+				"hunting_grounds_type": "crew_silvers_hunting_grounds_type",
+				"hunting_grounds_description": "crew_silvers_hunting_grounds_description",
+				"upgrade_20_check_1": "1",
+				"upgrade_22_check_1": "1"
+			},
+			"crewability": ["amiable", "cant_hate_us", "captivating", "heartfelt", "locals", "suppliers_network", "view_from_the_top", "experienced"],
+			"upgrade": [{
+				"name": "crew_upgrade_infil_rigging",
+				"description": "",
+				"numboxes": "1"
+			}, {
+				"name": "crew_upgrade_surveillance_scramblers",
+				"description": "",
+				"numboxes": "1"
+			}, {
+				"name": "crew_upgrade_electro_phi_betas",
+				"description": "",
+				"numboxes": "2"
+			}, {
+				"name": "crew_upgrade_tempered",
+				"description": "",
+				"numboxes": "3"
+			}]
+		}
+},
+	"playbook": {
+		"aegis": {
+	"starting_ability": ["interpolation_protocol"],
+	"ability": ["hits_keep_coming", "charmfield", "field_medic", "flow_and_crash", "the_reverie_school", "spark_of_hope", "spirit_soldier", "titanomach", "experienced"],
+	"base": {
+		"friends_title": "playbook_aegis_friends_title",
+		"command": "1",
+		"gatherinfo1": "gatherinfo_whats_their_intention",
+		"gatherinfo2": "gatherinfo_what_might_I_suspect",
+		"gatherinfo3": "gatherinfo_whats_the_danger_here",
+		"gatherinfo4": "gatherinfo_how_can_I_find",
+		"gatherinfo5": "gatherinfo_how_can_I_help_here",
+		"gatherinfo6": "gatherinfo_whats_going_on",
+		"gatherinfo7": "gatherinfo_detail_for_plan",
+		"playbook_description": "playbook_aegis_description",
+		"skirmish": "2",
+		"xp_condition": "playbook_aegis_xp_condition"
+	},
+	"playbookitem": [{
+		"bold": "1",
+		"name": "playbook_item_fine_hand_weapon",
+		"description": "playbook_item_fine_hand_weapon_description",
+		"numboxes": "1"
+	}, {
+		"name": "playbook_item_heavy_shield",
+		"description": "playbook_item_heavy_shield_description",
+		"numboxes": "2"
+	}, {
+		"bold": "1",
+		"name": "playbook_item_fine_sidearm",
+		"description": "playbook_item_fine_sidearm_description",
+		"numboxes": "1"
+	}, {
+		"bold": "1",
+		"name": "playbook_item_fine_spark_rifle",
+		"description": "playbook_item_fine_spark_rifle_description",
+		"numboxes": "1"
+	}, {
+		"name": "playbook_item_tactical_grenades",
+		"description": "playbook_item_tactical_grenades_description",
+		"numboxes": "1"
+	}, {
+		"name": "playbook_item_mark_of_training",
+		"description": "playbook_item_mark_of_training_description",
+		"numboxes": "0"
+	}]
+},
+	"kestrel": {
+	"starting_ability": ["seventh_sense"],
+	"ability": ["mother_duck", "charmlink", "natures_bounty", "nighthawk_tactics", "relentless", "red_eyes_shining", "storm_warning", "way_of_the_seeker", "experienced"],
+	"base": {
+	"friends_title": "playbook_kestrel_friends_title",
+	"trace": "1",
+	"gatherinfo1": "gatherinfo_whats_their_intention",
+	"gatherinfo2": "gatherinfo_what_might_I_suspect",
+	"gatherinfo3": "gatherinfo_whats_the_danger_here",
+	"gatherinfo4": "gatherinfo_how_can_I_find",
+	"gatherinfo5": "gatherinfo_how_can_I_help_here",
+	"gatherinfo6": "gatherinfo_whats_going_on",
+	"gatherinfo7": "gatherinfo_detail_for_plan",
+	"playbook_description": "playbook_kestrel_description",
+	"wayfare": "2",
+	"xp_condition": "playbook_kestrel_xp_condition"
+	},
+	"playbookitem": [{
+	"bold": "1",
+	"name": "playbook_item_fine_hunting_knives",
+	"description": "playbook_item_fine_hunting_knives_description",
+	"numboxes": "1"
+	}, {
+	"bold": "1",
+	"name": "playbook_item_fine_rifle_or_longbow",
+	"description": "playbook_item_fine_rifle_or_longbow_description",
+	"numboxes": "2"
+	}, {
+	"name": "playbook_item_a_tracking_pet",
+	"description": "playbook_item_a_tracking_pet_description",
+	"numboxes": "0"
+	}, {
+	"name": "playbook_item_optical_rig",
+	"description": "playbook_item_optical_rig_description",
+	"numboxes": "0"
+	}, {
+	"name": "playbook_item_tracking_beacons",
+	"description": "playbook_item_tracking_beacons_description",
+	"numboxes": "0"
+	}, {
+	"name": "playbook_item_memento_of_the_wilds",
+	"description": "playbook_item_memento_of_the_wilds_description",
+	"numboxes": "0"
+	}]
+},
+	"proxy": {
+"starting_ability": ["de_escalation"],
+"ability": ["keen", "both_eyes_open", "carrot_strategem", "charmtongue", "face_full_of_sunshine", "finding_time", "specter", "threads_of_fate", "experienced"],
+"base": {
+	"friends_title": "playbook_proxy_friends_title",
+	"bluff": "1",
+	"gatherinfo1": "gatherinfo_whats_their_intention",
+	"gatherinfo2": "gatherinfo_what_might_I_suspect",
+	"gatherinfo3": "gatherinfo_whats_the_danger_here",
+	"gatherinfo4": "gatherinfo_how_can_I_find",
+	"gatherinfo5": "gatherinfo_how_can_I_help_here",
+	"gatherinfo6": "gatherinfo_whats_going_on",
+	"gatherinfo7": "gatherinfo_detail_for_plan",
+	"playbook_description": "playbook_proxy_description",
+	"connect": "2",
+	"xp_condition": "playbook_proxy_xp_condition"
+},
+"playbookitem": [{
+	"bold": "1",
+	"name": "playbook_item_fine_gift",
+	"description": "playbook_item_fine_gift_description",
+	"numboxes": "2"
+}, {
+	"bold": "1",
+	"name": "playbook_item_fine_clothes",
+	"description": "playbook_item_fine_clothes_description",
+	"numboxes": "2"
+}, {
+	"name": "playbook_item_self_defense_weapon",
+	"description": "playbook_item_self_defense_weapon_description",
+	"numboxes": "1"
+}, {
+	"name": "playbook_item_legitimate_id",
+	"description": "playbook_item_legitimate_id_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_legitimate_id_wink",
+	"description": "playbook_item_legitimate_id_wink_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_token_of_your_past",
+	"description": "playbook_item_token_of_your_past_description",
+	"numboxes": "0"
+}]
+},
+	"Scholar": {
+"starting_ability": ["curiosity_satisfaction"],
+"ability": ["charmsight", "charmtrick", "endless_road", "epiphany", "jstor_login", "researcher", "state_alchemists_dilemma", "studied_the_blade", "experienced"],
+"base": {
+	"friends_title": "playbook_scholar_friends_title",
+	"finesse": "1",
+	"gatherinfo1": "gatherinfo_whats_their_intention",
+	"gatherinfo2": "gatherinfo_what_might_I_suspect",
+	"gatherinfo3": "gatherinfo_whats_the_danger_here",
+	"gatherinfo4": "gatherinfo_how_can_I_find",
+	"gatherinfo5": "gatherinfo_how_can_I_help_here",
+	"gatherinfo6": "gatherinfo_whats_going_on",
+	"gatherinfo7": "gatherinfo_detail_for_plan",
+	"playbook_description": "playbook_scholar_description",
+	"read": "2",
+	"xp_condition": "playbook_scholar_xp_condition"
+},
+"playbookitem": [{
+	"bold": "1",
+	"name": "playbook_item_data_cloner",
+	"description": "playbook_item_data_cloner_description",
+	"numboxes": "1"
+}, {
+	"bold": "1",
+	"name": "playbook_item_fine_research_gear",
+	"description": "playbook_item_fine_research_gear_description",
+	"numboxes": "2"
+}, {
+	"name": "playbook_item_books_and_journals",
+	"description": "playbook_item_books_and_journals_description",
+	"numboxes": "3"
+}, {
+	"name": "playbook_item_notebooks",
+	"description": "playbook_item_notebooks_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_translation_codex",
+	"description": "playbook_item_translation_codex_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_worn_book",
+	"description": "playbook_item_worn_book_description",
+	"numboxes": "0"
+}]
+},
+	"scrapper": {
+"starting_ability": ["hotfix"],
+"ability": ["paracause_protocol", "99_miles_per_hour", "a_horse_called_duck", "charlie_and_bee", "charmhack", "controlled_chaos", "neurocoupling", "tesseraction", "experienced"],
+"base": {
+	"friends_title": "playbook_scrapper_friends_title",
+	"read": "1",
+	"gatherinfo1": "gatherinfo_whats_their_intention",
+	"gatherinfo2": "gatherinfo_what_might_I_suspect",
+	"gatherinfo3": "gatherinfo_whats_the_danger_here",
+	"gatherinfo4": "gatherinfo_how_can_I_find",
+	"gatherinfo5": "gatherinfo_how_can_I_help_here",
+	"gatherinfo6": "gatherinfo_whats_going_on",
+	"gatherinfo7": "gatherinfo_detail_for_plan",
+	"playbook_description": "playbook_scrapper_description",
+	"shape": "2",
+	"xp_condition": "playbook_scrapper_xp_condition"
+},
+"playbookitem": [{
+	"bold": "1",
+	"name": "playbook_item_fine_repair_tools",
+	"description": "playbook_item_fine_repair_tools_description",
+	"numboxes": "1"
+}, {
+	"bold": "1",
+	"name": "playbook_item_fine_splicekit",
+	"description": "playbook_item_fine_splicekit_description",
+	"numboxes": "2"
+}, {
+	"bold": "1",
+	"name": "playbook_item_spare_parts",
+	"description": "playbook_item_spare_parts_description",
+	"numboxes": "1"
+}, {
+	"name": "playbook_item_magnifying_lenses",
+	"description": "playbook_item_magnifying_lenses_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_stasis_pack",
+	"description": "playbook_item_stasis_pack_description",
+	"numboxes": "2"
+}, {
+	"name": "playbook_item_relic_fragment",
+	"description": "playbook_item_relic_fragment_description",
+	"numboxes": "0"
+}]
+},
+	"witch": {
+"starting_ability": ["charmwork"],
+"ability": ["carolines_heart", "charmbreak", "cultivate_saplings", "kythe", "the_moon_upright", "painsplit", "ravens_at_dusk", "skyfall_safeguard", "experienced"],
+"base": {
+	"friends_title": "playbook_witch_friends_title",
+	"finesse": "1",
+	"gatherinfo1": "gatherinfo_whats_their_intention",
+	"gatherinfo2": "gatherinfo_what_might_I_suspect",
+	"gatherinfo3": "gatherinfo_whats_the_danger_here",
+	"gatherinfo4": "gatherinfo_how_can_I_find",
+	"gatherinfo5": "gatherinfo_how_can_I_help_here",
+	"gatherinfo6": "gatherinfo_whats_going_on",
+	"gatherinfo7": "gatherinfo_detail_for_plan",
+	"playbook_description": "playbook_witch_description",
+	"tune": "2",
+	"xp_condition": "playbook_witch_xp_condition"
+},
+"playbookitem": [{
+	"bold": "1",
+	"name": "playbook_item_fine_charmwork_tools",
+	"description": "playbook_item_fine_charmwork_tools_description",
+	"numboxes": "1"
+}, {
+	"bold": "1",
+	"name": "playbook_item_fine_healing_supplies",
+	"description": "playbook_item_fine_healing_supplies_description",
+	"numboxes": "1"
+}, {
+	"name": "playbook_item_familiar",
+	"description": "playbook_item_familiar_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_arcana_zero",
+	"description": "playbook_item_arcana_zero_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_small_totems",
+	"description": "playbook_item_small_totems_description",
+	"numboxes": "0"
+}, {
+	"name": "playbook_item_book_of_legends",
+	"description": "playbook_item_book_of_legends_description",
+	"numboxes": "0"
+}]
+},
+	"charter": {
+	"starting_ability": ["long_thought"],
+	"ability": ["coordinated", "charmsync", "fight_a_few_fears", "meticulous", "polymath", "planned_for_everything", "self_care", "up_late", "experienced"],
+	"base": {
+		"friends_title": "playbook_charter_friends_title",
+		"long_thought": "1",
+		"connect": "1",
+		"gatherinfo1": "gatherinfo_whats_their_intention",
+		"gatherinfo2": "gatherinfo_what_might_I_suspect",
+		"gatherinfo3": "gatherinfo_whats_the_danger_here",
+		"gatherinfo4": "gatherinfo_how_can_I_find",
+		"gatherinfo5": "gatherinfo_how_can_I_help_here",
+		"gatherinfo6": "gatherinfo_whats_going_on",
+		"gatherinfo7": "gatherinfo_detail_for_plan",
+		"playbook_description": "playbook_charter_description",
+		"read": "2",
+		"xp_condition": "playbook_charter_xp_condition"
+	},
+	"playbookitem": [{
+		"name": "playbook_item_signal_flares",
+		"description": "playbook_item_signal_flares_description",
+		"numboxes": "1"
+	}, {
+		"name": "playbook_item_forged_documents",
+		"description": "playbook_item_forged_documents_description",
+		"numboxes": "0"
+	}, {
+		"name": "playbook_item_dossiers",
+		"description": "playbook_item_dossiers_description",
+		"numboxes": "0"
+	}, {
+		"name": "playbook_item_stun_charge",
+		"description": "playbook_item_stun_charge_description",
+		"numboxes": "1"
+	}, {
+		"name": "playbook_item_recon_beetle",
+		"description": "playbook_item_recon_beetle_description",
+		"numboxes": "0"
+	}, {
+		"name": "playbook_item_log_book",
+		"description": "playbook_item_log_book_description",
+		"numboxes": "1"
+	}]
+	}
+},
+	"factions": {
+		"factions1": [{
+	"name": "faction_the_asphodel_pinnacle",
+	"tier": "V",
+	"hold": "S"
+}, {
+	"name": "faction_tsunami",
+	"tier": "III",
+	"hold": "S"
+}, {
+		"name": "faction_asriony_union_of_journalists",
+		"tier": "III",
+		"hold": "W"
+}, {
+		"name": "faction_the_order_of_the_spiral",
+		"tier": "II",
+		"hold": "S"
+}, {
+	"name": "faction_synaptic_wreath",
+	"tier": "I",
+	"hold": "S"
+}],
+"factions2": [{
+	"name": "faction_acanthia_citizenship",
+	"tier": "V",
+	"hold": "S"
+}, {
+	"name": "faction_astatine_throne",
+	"tier": "V",
+	"hold": "S"
+}, {
+	"name": "faction_cedar_phantoms",
+	"tier": "IV",
+	"hold": "W"
+}, {
+	"name": "faction_nomothesis_blue",
+	"tier": "III",
+	"hold": "W"
+}, {
+	"name": "faction_aqua_regia",
+	"tier": "III",
+	"hold": "S"
+}, {
+	"name": "faction_ace_of_hearts",
+	"tier": "I",
+	"hold": "W"
+}],
+"factions3": [{
+	"name": "faction_malvarose_citizenship",
+	"tier": "IV",
+	"hold": "S"
+}, {
+	"name": "faction_rosewhite_academy",
+	"tier": "IV",
+	"hold": "W"
+}, {
+	"name": "faction_the_lantern_agency",
+	"tier": "III",
+	"hold": "S"
+}, {
+	"name": "faction_pyrehollows",
+	"tier": "I",
+	"hold": "S"
+}],
+"factions4": [{
+	"name": "faction_meridian_valley_citizenship",
+	"tier": "III",
+	"hold": "S"
+}, {
+	"name": "faction_path_of_bluebells",
+	"tier": "IV",
+	"hold": "W"
+}, {
+	"name": "faction_meridian_coalition",
+	"tier": "III",
+	"hold": "S"
+}, {
+	"name": "faction_leafneedles",
+	"tier": "III",
+	"hold": "W"
+}, {
+	"name": "faction_salaphiels_quills",
+	"tier": "III",
+	"hold": "W"
+}, {
+	"name": "faction_rust_devils",
+	"tier": "I",
+	"hold": "S"
+}],
+"factions5": [{
+	"name": "faction_pinelock_citizenship",
+	"tier": "III",
+	"hold": "W"
+}, {
+	"name": "faction_the_monstral_fair",
+	"tier": "IV",
+	"hold": "S"
+}, {
+	"name": "faction_mistral_research_collective",
+	"tier": "II",
+	"hold": "S"
+}],
+"factions6": [{
+	"name": "faction_red_empire_citizenship",
+	"tier": "II",
+	"hold": "W"
+}, {
+	"name": "faction_red_crowns",
+	"tier": "V",
+	"hold": "S"
+}, {
+	"name": "faction_imperial_paladins",
+	"tier": "IV",
+	"hold": "S"
+}, {
+	"name": "faction_cardinal_frontier_division",
+	"tier": "III",
+	"hold": "S"
+}, {
+	"name": "faction_tango_foxtrot",
+	"tier": "II",
+	"hold": "S"
+}],
+"factions7": [{
+	"name": "faction_serafin_citizenship",
+	"tier": "V",
+	"hold": "S"
+}, {
+	"name": "faction_seraph_architectonics_corps",
+	"tier": "IV",
+	"hold": "S"
+}, {
+	"name": "faction_spinhawks",
+	"tier": "II",
+	"hold": "W"
+}, {
+	"name": "faction_glowjacks",
+	"tier": "II",
+	"hold": "W"
+}, {
+	"name": "faction_the_lighthouse",
+	"tier": "I",
+	"hold": "S"
+}, {
+	"name": "faction_keening_echos",
+	"tier": "I",
+	"hold": "W"
+}],
+"factions8": [{
+	"name": "faction_starfire_pelagic_citizenship",
+	"tier": "IV",
+	"hold": "S"
+}, {
+	"name": "faction_koiaia_council",
+	"tier": "IV",
+	"hold": "S"
+}, {
+	"name": "faction_lunamoths",
+	"tier": "III",
+	"hold": "S"
+ }]
+},
+	"actions": {
+		"analysis": ["read", "shape", "sunder", "trace"],
+		"kinesis": ["finesse", "shadow", "skirmish", "wayfare"],
+		"semiosis": ["tune", "bluff", "command", "connect"]
+	},
+	"traumas": ["anxious", "cynical", "detached", "haunted", "obsessed", "reckless", "shaky", "vindictive"],
+	"items": [{
+		"name": "simple_comms",
+		"description": "simple_comms_description",
+		"numboxes": "0"
+	}, {
+		"name": "lumeslate",
+		"description": "lumeslate_description",
+		"numboxes": "0"
+	}, {
+		"name": "analysis_pack",
+		"description": "analysis_pack_description",
+		"numboxes": "2"
+	}, {
+		"name": "comms_pack",
+		"description": "comms_pack_description",
+		"numboxes": "1"
+	}, {
+		"name": "survival_pack",
+		"description": "survival_pack_description",
+		"numboxes": "2"
+	}, {
+		"name": "medkit",
+		"description": "medkit_description",
+		"numboxes": "1"
+	}, {
+		"name": "blade_or_hammer",
+		"description": "blade_or_hammer_description",
+		"numboxes": "1"
+	}, {
+		"name": "sparkshot",
+		"description": "sparkshot_description",
+		"numboxes": "1"
+	}, {
+		"name": "strange_weapon",
+		"description": "strange_weapon_description",
+		"numboxes": "1"
+	}, {
+		"name": "assault_ordnance",
+		"description": "assault_ordnance_description",
+		"numboxes": "2"
+	}, {
+		"name": "armor",
+		"description": "armor_description",
+		"numboxes": "1",
+		"short": "1"
+	}, {
+		"name": "+heavy",
+		"description": "+heavy_description",
+		"numboxes": "2",
+		"short": "1"
+	}, {
+		"name": "charmwork_tools",
+		"description": "charmwork_tools_description",
+		"numboxes": "1"
+	}, {
+		"name": "repair_tools",
+		"description": "repair_tools_description",
+		"numboxes": "1"
+	}, {
+		"name": "demolition_tools",
+		"description": "demolition_tools_description",
+		"numboxes": "2"
+	}, {
+		"name": "infiltration_kit",
+		"description": "infiltration_kit_description",
+		"numboxes": "1"
+	}, {
+		"name": "jumpkit",
+		"description": "jumpkit_description",
+		"numboxes": "2"
+	}],
+	"translatedDefaults": {
+		"cohort1_name": "expert",
+		"contacts_title": "contacts",
+		"factions_title": "factions_title",
+		"factions1_header": "factions1",
+		"factions2_header": "factions2",
+		"factions3_header": "factions3",
+		"factions4_header": "factions4",
+		"factions5_header": "factions5",
+		"friends_title": "friends",
+		"upgrade_5_name": "rover",
+		"upgrade_5_description": "upgrade_rover_description",
+		"upgrade_6_name": "dropjet",
+		"upgrade_6_description": "upgrade_dropjet_description",
+		"upgrade_7_name": "quarters",
+		"upgrade_7_description": "upgrade_quarters_description",
+		"upgrade_8_name": "warehouses",
+		"upgrade_8_description": "upgrade_warehouses_description",
+		"upgrade_9_name": "security",
+		"upgrade_9_description": "upgrade_security_description",
+		"upgrade_10_name": "workshop",
+		"upgrade_10_description": "upgrade_workshop_description",
+		"upgrade_11_name": "packs",
+		"upgrade_11_description": "upgrade_packs_description",
+		"upgrade_12_name": "weapons",
+		"upgrade_12_description": "upgrade_weapons_description",
+		"upgrade_13_name": "tools",
+		"upgrade_13_description": "upgrade_tools_description",
+		"upgrade_14_name": "kits",
+		"upgrade_14_description": "upgrade_kits_description",
+		"upgrade_15_name": "spacer",
+		"upgrade_20_name": "analysis",
+		"upgrade_20_description": "upgrade_analysis_description",
+		"upgrade_21_name": "kinesis",
+		"upgrade_21_description": "upgrade_kinesis_description",
+		"upgrade_22_name": "semiosis",
+		"upgrade_22_description": "upgrade_semiosis_description",
+		"upgrade_23_name": "personal",
+		"upgrade_23_description": "upgrade_personal_description",
+		"xp_condition2": "xp_beliefs",
+		"xp_condition3": "xp_relief"
+	},
+	"defaultValues": {
+		"tune": "0",
+		"command": "0",
+		"connect": "0",
+		"finesse": "0",
+		"trace": "0",
+		"shadow": "0",
+		"skirmish": "0",
+		"shape": "0",
+		"read": "0",
+		"bluff": "0",
+		"sunder": "0",
+		"wayfare": "0"
+	},
+	"maxFriendsPerPlaybook": 5,
+	"maxContactsPerCrew": 5,
+	"friendlessPlaybooks": [],
+	"translatedCrewAttributes": ["claim_1_name", "claim_2_name", "claim_3_name", "claim_4_name", "claim_5_name", "claim_6_name", "claim_7_name", "claim_8_name", "claim_9_name", "claim_10_name", "claim_11_name", "claim_12_name", "claim_13_name", "claim_14_name", "claim_15_name", "claim_1_desc", "claim_2_desc", "claim_3_desc", "claim_4_desc", "claim_5_desc", "claim_6_desc", "claim_7_desc", "claim_8_desc", "claim_9_desc", "claim_10_desc", "claim_11_desc", "claim_12_desc", "claim_13_desc", "claim_14_desc", "claim_15_desc", "cohort1_description", "cohort1_name", "cohort1_subtype", "hunting_grounds_type", "hunting_grounds_description", "upgrade_6_name", "upgrade_8_name", "crew_description", "crew_xp_condition"],
+	"translatedPlaybookAttributes": ["friends_title", "gatherinfo1", "gatherinfo2", "gatherinfo3", "gatherinfo4", "gatherinfo5", "gatherinfo6", "gatherinfo7", "playbook_description","xp_condition"]
+}

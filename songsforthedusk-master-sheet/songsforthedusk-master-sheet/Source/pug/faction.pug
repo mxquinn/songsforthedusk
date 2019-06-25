@@ -1,0 +1,43 @@
+mixin makefactions(number, title)
+	.factions-header.flex.uppercase&attributes(attributes)
+		+text-input(`factions${number}_header`, title).faction-name.label
+		span.faction-tier(data-i18n='tier')
+		span.faction-hold(data-i18n='hold')
+		span.faction-status(data-i18n='status')
+	fieldset(class=`repeating_factions${number}`)
+		.faction
+			+checkbox('expand').expand
+			+text-input('name').faction-name
+			+text-input('tier').faction-tier
+			+text-input('hold').faction-hold
+			+number-input('status').faction-status
+			+textarea('notes')(data-i18n-placeholder='faction_notes')
+
+// Faction Sheet
++hidden-input('setting_clocks_only')(value='0').input-clocks-only
+.type-faction.flex-wrap
+	.factiontitle.flex.col100
+		+text-input('factions_title', 'factions_title').label
+		+hidden-input('show_faction_generatebutton')(value='1').hider
+		label.generatebutton
+			+checkbox('generate_factions')(data-i18n='generate_factions')
+		+fortuneroll('Fortune_faction', '{{fortune=1}} {{title=^{fortune}}} {{short=1}} {{charname=}}', true)(data-i18n='roll_fortune').fortunebutton.borderbutton
+	.factions.flex.free-repcontrol
+		.col30b
+			+makefactions(1, 'factions1')
+			+makefactions(2, 'factions2')
+			+makefactions(3, 'factions3').sheet-def-margin
+		.col30b
+			+makefactions(4, 'factions4')
+			+makefactions(5, 'factions5')
+			+makefactions(6, 'factions6')
+		.col30b
+			+makefactions(7, 'factions7')
+			+makefactions(8, 'factions8')
+			
+	.clocks.col55.free-repcontrol
+		.specialheader.label(data-i18n='clocks')
+		fieldset.repeating_factionclock
+			+makeclock
+	.col45.right-column
+		+textarea('faction_notes')(data-i18n-placeholder='notes').notes
